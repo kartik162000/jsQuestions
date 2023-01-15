@@ -21,3 +21,5 @@ const countVowelArrow=(input) =>
 let input="codeacademy"
 console.log(countVowelRegular(input));
 console.log(countVowelArrow(input));
+
+module.exports={countVowelRegular,countVowelArrow}
