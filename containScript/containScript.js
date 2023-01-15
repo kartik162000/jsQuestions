@@ -12,5 +12,7 @@ let containScriptArrow=(input) => {
     return ans;
 }
 
-console.log(containScriptRegular('JavaScript'));
-console.log(containScriptArrow('javascript'));
+// console.log(containScriptRegular('JavaScript'));
+// console.log(containScriptArrow('javascript'));
+
+module.exports={containScriptArrow,containScriptRegular};
