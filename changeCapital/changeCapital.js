@@ -31,6 +31,9 @@ letter=(words.charCodeAt(index) >= 65 && words.charCodeAt(index) <= 90)? letter.
 }
 
 
-let inputs="MeRRy hAD a LITTle lAMp"
-console.log(changeCapitalReg(inputs));
-console.log(changeCapitalArrow(inputs));
+// let inputs="MeRRy hAD a LITTle lAMp"
+// console.log(changeCapitalReg(inputs));
+// console.log(changeCapitalArrow(inputs));
+
+
+module.exports = { changeCapitalReg, changeCapitalArrow};
