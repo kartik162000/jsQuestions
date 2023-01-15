@@ -17,6 +17,7 @@ const longestStringArrow=inputs=>{
 }
 
 
-let inputs=["we", "love", "code", "acad"]
-console.log(longestStringRegular(inputs));
-console.log(longestStringArrow(inputs));
+// let inputs=["we", "love", "code", "acad"]
+// console.log(longestStringRegular(inputs));
+// console.log(longestStringArrow(inputs));
+module.exports={longestStringRegular,longestStringArrow}
