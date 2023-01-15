@@ -43,6 +43,7 @@ const nextAlphaArrow=(input) =>
 }
 
 
-let input="lazyinterns"
-console.log(nextAlphaRegular(input));
-console.log(nextAlphaArrow(input));
+// let input="lazyinterns"
+// console.log(nextAlphaRegular(input));
+// console.log(nextAlphaArrow(input));
+module.exports={nextAlphaRegular,nextAlphaArrow}
