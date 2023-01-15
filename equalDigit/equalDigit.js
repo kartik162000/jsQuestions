@@ -13,5 +13,7 @@ const equalDigitArrow=(number)=>
 }
 
 
-console.log(equalDigitArrow(2255));
-console.log(equalDigitReg(2255));
+// console.log(equalDigitArrow(2255));
+// console.log(equalDigitReg(2255));
+
+module.exports = {equalDigitReg, equalDigitArrow};
