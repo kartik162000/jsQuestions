@@ -8,6 +8,7 @@ const leapYearArrow=(year) =>
 }
 
 
-let year=3000
-console.log(leapYearRegular(year));
-console.log(leapYearArrow(year));
+// let year=3000
+// console.log(leapYearRegular(year));
+// console.log(leapYearArrow(year));
+module.exports={leapYearRegular,leapYearArrow}
