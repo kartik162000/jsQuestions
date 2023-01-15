@@ -8,6 +8,8 @@ const concatStringArrow=(input) =>
 }
 
 
-let input=["code", "academy"]
-console.log(concatStringRegular(input));
-console.log(concatStringArrow(input));
+// let input=["code", "academy"]
+// console.log(concatStringRegular(input));
+// console.log(concatStringArrow(input));
+
+module.exports={concatStringRegular,concatStringArrow};
