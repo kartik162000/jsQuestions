@@ -18,9 +18,9 @@ const largeEvenNoArrow = (nums)=>
 
 
 
-let nums=[1,3,5,7,8,10]
+// let nums=[1,3,5,7,8,10]
 
-console.log(largeEvenNoReg(nums));
-console.log(largeEvenNoArrow(nums));
-// module.exports = {largeEvenNoReg, largeEvenNoArrow};
+// console.log(largeEvenNoReg(nums));
+// console.log(largeEvenNoArrow(nums));
+module.exports = {largeEvenNoReg, largeEvenNoArrow};
 
